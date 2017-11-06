@@ -1,6 +1,6 @@
 {
   "name": "@warmlyyours/react-planner",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "react-planner is a React Component for plans design. Draw a 2D floorplan and navigate it in 3D mode.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -77,9 +77,7 @@
     "react-redux": "5.0.6",
     "react-svg-pan-zoom": "2.13.0",
     "redux": "3.7.2",
-    "shortid": "2.2.8"
-  },
-  "devDependencies": {
+    "shortid": "2.2.8",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.0",
     "babel-loader": "7.1.2",
@@ -100,6 +98,8 @@
     "three": "0.87.1",
     "webpack": "3.8.1",
     "webpack-dev-server": "2.9.3"
+  },
+  "devDependencies": {
   },
   "peerDependencies": {
     "react": "16.x",
