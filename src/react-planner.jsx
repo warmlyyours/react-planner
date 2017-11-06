@@ -107,7 +107,7 @@ ReactPlanner.defaultProps = {
   catalog: new Catalog(),
   plugins: [],
   allowProjectFileSupport: true,
-  softwareSignature: `React-Planner ${VERSION}`,
+  softwareSignature: `WarmlyYours Planner ${VERSION}`,
   toolbarButtons: [],
   sidebarComponents: [],
   footerbarComponents: [],
