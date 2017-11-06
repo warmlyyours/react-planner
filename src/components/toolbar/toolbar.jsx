@@ -112,14 +112,6 @@ export default class Toolbar extends Component {
       },
       {
         index: 4, condition: true, dom: <ToolbarButton
-        active={[MODE_3D_VIEW].includes(mode)}
-        tooltip={translator.t('3D View')}
-        onClick={event => viewer3DActions.selectTool3DView()}>
-        <Icon3D/>
-      </ToolbarButton>
-      },
-      {
-        index: 5, condition: true, dom: <ToolbarButton
         active={[MODE_IDLE].includes(mode)}
         tooltip={translator.t('2D View')}
         onClick={event => projectActions.rollback()}>
@@ -127,15 +119,7 @@ export default class Toolbar extends Component {
       </ToolbarButton>
       },
       {
-        index: 6, condition: true, dom: <ToolbarButton
-        active={[MODE_3D_FIRST_PERSON].includes(mode)}
-        tooltip={translator.t('3D First Person')}
-        onClick={event => viewer3DActions.selectTool3DFirstPerson()}>
-        <Icon3DFirstPerson/>
-      </ToolbarButton>
-      },
-      {
-        index: 7, condition: true, dom: <ToolbarButton
+        index: 5, condition: true, dom: <ToolbarButton
         active={false}
         tooltip={translator.t('Undo (CTRL-Z)')}
         onClick={event => projectActions.undo()}>
@@ -143,7 +127,7 @@ export default class Toolbar extends Component {
       </ToolbarButton>
       },
       {
-        index: 8, condition: true, dom: <ToolbarButton
+        index: 6, condition: true, dom: <ToolbarButton
         active={[MODE_CONFIGURING_PROJECT].includes(mode)}
         tooltip={translator.t('Configure project')}
         onClick={event => projectActions.openProjectConfigurator()}>
